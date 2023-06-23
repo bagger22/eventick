@@ -56,44 +56,58 @@
                 simplest way for you to experience a live Kpop<br />
                 recording.
               </p>
-              <button type="submit" class="banner__button-ticket">Get Ticket</button>
-              <button type="submit" class="banner__button-learn">Learn More</button>
+              <button type="submit" class="banner__button-ticket">
+                Get Ticket
+              </button>
+              <button type="submit" class="banner__button-learn">
+                Learn More
+              </button>
             </div>
           </div>
-          <div class="banner__search-box-content">
-            <select
-              class="banner__search-box"
-              name="search-box"
-              id="search-box"
-            >
-              <option class="banner__search-box-item" value="Search Event">
-                Konser Jazz
-              </option>
-            </select>
-            <select
-              class="banner__search-box"
-              name="search-box"
-              id="search-box"
-            >
-              <option class="banner__search-box-item" value="Place">
-                Indonesia
-              </option>
-            </select>
-            <select
-              class="banner__search-box"
-              name="search-box"
-              id="search-box"
-            >
-              <option
-                class="banner__search-box-item"
-                disabled
-                selected
-                value="Time"
-              >
-                Any date
-              </option>
-            </select>
+        </div>
+        <section class="form">
+          <div class="form__items">
+            <div class="form__search">
+              <label for="form__input-search">Search Event</label><br />
+              <input
+                name="search"
+                type="text"
+                id="form__input-search"
+                class="form__input"
+                value="Konser Jazz"
+              />
+            </div>
+
+            <div class="form__place">
+              <label for="form__input-place">Place</label><br />
+              <input
+                name="place"
+                type="text"
+                id="form__input-place"
+                class="form__input"
+                value="Indonesia"
+              />
+            </div>
+
+            <div class="form__place">
+              <label for="form__input-time">Time</label><br />
+              <input
+                name="time"
+                type="text"
+                id="form__input-time"
+                class="form__input-time"
+                value="Any date"
+              />
+            </div>
           </div>
+        </section>
+      </section>
+
+      <section class="events">
+        <div class="container">
+          <header class="events__header">
+            <h2 class="events__title">Upcoming Events</h2>
+          </header>
         </div>
       </section>
     </main>

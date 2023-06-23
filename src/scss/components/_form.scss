@@ -1,0 +1,62 @@
+.form {
+
+    transform: translateY(50%);
+    // .form__items
+
+    &__items {
+        display: flex;
+        justify-content: space-around;
+        max-width: 70rem;
+        margin: auto;
+        align-items: center;
+        background-color: #242565;
+        border-radius: 20px;
+        padding: 3rem 3rem;
+    }
+
+    // .form__search
+
+    &__search {
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+    // .form__input
+
+    &__input {
+        color: #fff;
+        border: none;
+        border-bottom: 2px solid #7778B0;
+        font-family: 'DM Sans', sans-serif;
+        background-color: transparent;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    // .form__place
+
+    &__place {
+        font-family: 'DM Sans', sans-serif;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+    // .form__time
+
+    &__input-time {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #7778B0;
+        color: #fff;
+        background-image: url('/src/assests/arrow.svg');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 20px;
+        }
+
+
+}

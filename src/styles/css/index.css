@@ -47,6 +47,7 @@ textarea {
 
 .banner__button-ticket {
   background-color: #F5167E;
+  margin-right: 1.3rem;
   margin-top: 2rem;
   font-family: "DM Sans", sans-serif;
   color: #fff;
@@ -118,6 +119,7 @@ textarea {
 
 .banner__button-ticket {
   background-color: #F5167E;
+  margin-right: 1.3rem;
   margin-top: 2rem;
   font-family: "DM Sans", sans-serif;
   color: #fff;
@@ -136,10 +138,6 @@ textarea {
   border: 2px solid #fff;
   border-radius: 7rem;
   cursor: pointer;
-}
-
-main {
-  background: linear-gradient(156deg, #ED4690 0%, #52C 100%);
 }
 
 .banner-content-box {
@@ -192,6 +190,58 @@ main {
 .banner__search-box {
   width: 290px;
   border: none;
-  border-bottom: 2px solid #7778B0;
   background-color: #242565;
+  border-bottom: 2px solid #7778b0;
+}
+
+.form {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+.form__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 70rem;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #242565;
+  border-radius: 20px;
+  padding: 3rem 3rem;
+}
+.form__search {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.form__input {
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #7778B0;
+  font-family: "DM Sans", sans-serif;
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.form__place {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.form__input-time {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #7778B0;
+  color: #fff;
+  background-image: url("/src/assests/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
 }
