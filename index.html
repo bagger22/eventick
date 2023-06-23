@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/css/index.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Eventick</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="header-icon-link" href="#">
+          <img class="navigation__logo" src="./src/assests/logo.svg" alt="logo"
+        /></a>
+        <nav class="navigation__menu">
+          <ul class="navigation__list">
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__link">Schedule</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__link">Speakers</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__link">Ticket</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__link">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="header__button">Login</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="banner">
+        <div class="container">
+          <div class="banner-content-box">
+            <img
+              class="korean-group"
+              src="./src/assests/korean-group.png"
+              alt="korean-group"
+            />
+            <div class="banner-content-text">
+              <h1 class="banner__title">
+                SBS MTV The Kpop Show Ticket Package
+              </h1>
+              <p class="banner__subtitle">
+                Look no further! Our SBS The Show tickets are the<br />
+                simplest way for you to experience a live Kpop<br />
+                recording.
+              </p>
+              <button type="submit" class="banner__button-ticket">Get Ticket</button>
+              <button type="submit" class="banner__button-learn">Learn More</button>
+            </div>
+          </div>
+          <div class="banner__search-box-content">
+            <select
+              class="banner__search-box"
+              name="search-box"
+              id="search-box"
+            >
+              <option class="banner__search-box-item" value="Search Event">
+                Konser Jazz
+              </option>
+            </select>
+            <select
+              class="banner__search-box"
+              name="search-box"
+              id="search-box"
+            >
+              <option class="banner__search-box-item" value="Place">
+                Indonesia
+              </option>
+            </select>
+            <select
+              class="banner__search-box"
+              name="search-box"
+              id="search-box"
+            >
+              <option
+                class="banner__search-box-item"
+                disabled
+                selected
+                value="Time"
+              >
+                Any date
+              </option>
+            </select>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
