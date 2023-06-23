@@ -160,7 +160,7 @@ textarea {
 }
 
 .banner {
-  background-image: url(./src/assests/banner-background.png);
+  background-image: url("/src/assests/banner-background.png");
   opacity: 1;
   background-repeat: no-repeat;
   background-position: center;
@@ -240,7 +240,7 @@ textarea {
   border: none;
   border-bottom: 2px solid #7778B0;
   color: #fff;
-  background-image: url("./src/assests/arrow.svg");
+  background-image: url("/src/assests/arrow.svg");
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 20px;
