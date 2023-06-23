@@ -204,7 +204,7 @@ textarea {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  max-width: 70rem;
+  max-width: 93rem;
   margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -244,4 +244,34 @@ textarea {
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 20px;
+}
+
+.events {
+  margin-top: 7rem;
+}
+.events__title {
+  float: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #242565;
+}
+.events__choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1.3rem;
+}
+.events__input {
+  color: #1D275F;
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #F2F4FF;
+}
+.events__input:focus {
+  outline: 1px solid #b8bac2;
 }

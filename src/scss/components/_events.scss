@@ -1,0 +1,56 @@
+.events {
+    margin-top: 7rem;
+    // .events__header
+
+    &__header {
+    }
+
+    // .events__title
+
+    &__title {
+        float: left;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        color: #242565;
+    }
+
+    // .events__choice
+
+    &__choice {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1.3rem;
+    }
+
+    // .events__weekdays
+
+    &__weekdays {
+    }
+
+    // .events__input
+
+    &__input {
+        color: #1D275F;
+        font-family: 'DM Sans', sans-serif;
+        border: none;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #F2F4FF;
+
+        &:focus{
+            outline: 1px solid #b8bac2;
+        }
+    }
+
+    // .events__type
+
+    &__type {
+
+    }
+
+    // .events__category
+
+    &__category {
+    }
+}
+
