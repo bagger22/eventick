@@ -22,11 +22,6 @@
         gap: 1.3rem;
     }
 
-    // .events__weekdays
-
-    &__weekdays {
-    }
-
     // .events__input
 
     &__input {
@@ -35,22 +30,53 @@
         border: none;
         padding: 1rem 1.5rem;
         border-radius: 2rem;
-        background-color: #F2F4FF;
+        background-color: #e3e4ee;
 
         &:focus{
         outline: 1px solid #b8bac2;
         }
     }
-
-    // .events__type
-
-    &__type {
-
-    }
-
-    // .events__category
-
-    &__category {
-    }
 }
 
+.events {
+
+    // .events__card-container
+
+    &__card-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        grid-gap: 1.2rem; 
+        margin-top: 6rem;
+    }
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.event {
+
+    // .event__image
+
+    &__image {
+    }
+
+    // .event__image-title
+
+    &__image-title {
+        margin-top: 1rem;
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    // .event__image-subtitle
+
+    &__image-subtitle {
+        margin-top: 1rem;
+        color: #6A6A6A;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 0.95rem;
+    }
+}

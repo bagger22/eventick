@@ -40,6 +40,11 @@
 		&__link {
 			color: $main-color;
             text-decoration: none;
+			transition: all 0.2s ease-in-out;
+
+		&:hover{
+			color: #d1cdcd;
+		}
 		}
 }
 

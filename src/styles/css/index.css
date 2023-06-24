@@ -8,6 +8,7 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   scroll-padding-top: 70px;
+  background-color: #f7f7f7;
 }
 
 img {
@@ -31,7 +32,7 @@ textarea {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1410px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -106,6 +107,11 @@ textarea {
 .navigation__link {
   color: #fff;
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navigation__link:hover {
+  color: #d1cdcd;
 }
 
 .header__button {
@@ -270,8 +276,38 @@ textarea {
   border: none;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
-  background-color: #F2F4FF;
+  background-color: #e3e4ee;
 }
 .events__input:focus {
   outline: 1px solid #b8bac2;
+}
+
+.events__card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 1.2rem;
+  margin-top: 6rem;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.event__image-title {
+  margin-top: 1rem;
+  font-family: "DM Sans", sans-serif;
+}
+.event__image-subtitle {
+  margin-top: 1rem;
+  color: #6A6A6A;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.95rem;
 }
