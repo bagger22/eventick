@@ -2,9 +2,6 @@
     margin-top: 7rem;
     // .events__header
 
-    &__header {
-    }
-
     // .events__title
 
     &__title {
@@ -46,7 +43,8 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
-        grid-gap: 1.2rem; 
+        grid-row-gap: 2.6rem; 
+        grid-column-gap: 10rem; 
         margin-top: 6rem;
     }
 }
@@ -58,11 +56,6 @@
     border-radius: 15px;
 }
 .event {
-
-    // .event__image
-
-    &__image {
-    }
 
     // .event__image-title
 
@@ -79,4 +72,10 @@
         font-family: 'DM Sans', sans-serif;
         font-size: 0.95rem;
     }
+}
+
+.load__button{
+    margin-left: 38rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
