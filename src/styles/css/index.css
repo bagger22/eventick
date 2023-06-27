@@ -395,9 +395,14 @@ textarea {
     padding-top: 10rem;
   }
 }
+@media (max-width: 700px) {
+  .banner {
+    background-image: url(../../assests/images/banner-background.png);
+  }
+}
 @media (max-width: 428px) {
   .banner {
-    background-image: url(/src/assests/images/banner-background.png);
+    background-image: url(../../assests/images/banner-background.png);
   }
 }
 .banner__image {
