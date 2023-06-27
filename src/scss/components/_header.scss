@@ -23,6 +23,10 @@
 			justify-content: flex-end;
 			align-items: center;
 			padding: 1rem;
+
+			@media(max-width: 888px){
+				display: none;
+			}
 		}
 
 		// .navigation__list

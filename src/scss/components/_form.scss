@@ -12,8 +12,26 @@
         border-radius: 20px;
         padding: 3rem 3rem;
 
+        @media (max-width: 1400px) {
+            margin-top: 23rem;
+        }  
+
+        @media (max-width: 1187px) {
+            margin-top: 20rem;
+        }  
+
         @media (max-width: 768px) {
             margin-top: 9rem;
+        }
+
+        @media (max-width: 500px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 428px) {
+            display: flex;
+            flex-direction: column;
         }
     }
 
@@ -36,8 +54,16 @@
         font-size: 1.3rem;
         margin-top: 1rem;
         
+        @media (max-width: 1187px) {
+            max-width: 9.3rem;
+        }  
+    
         @media (max-width: 768px) {
             max-width: 9.3rem;
+        }
+
+        @media (max-width: 428px) {
+            margin-bottom: 2rem;
         }
     }
 
@@ -63,7 +89,10 @@
         background-repeat: no-repeat;
         background-position: right center;
 
-        
+        @media (max-width: 1187px) {
+            max-width: 9.3rem;
+        }  
+
         @media (max-width: 768px) {
             max-width: 9.3rem;
         }

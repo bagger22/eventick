@@ -15,10 +15,29 @@
 
     &__logo {
         margin-top: 4rem;
+
+        @media(max-width:604px) {
+            display: none;
+        }
+
+        @media (max-width:428px){
+            display: none;
+          }
     }
 
+    &-address{
+        @media(max-width:604px) {
+            margin-top: 3rem;
+        }
 
-    // .footer__icons
+        @media(max-width:393px) {
+            display: none;
+        }
+
+        @media (max-width:428px){
+            margin-top: 3rem;
+          }
+    }
 
     &__icons {
         margin-top: 1rem;
@@ -42,26 +61,76 @@
         text-decoration: none;
         line-height: 2rem;
         font-family: 'DM Sans', sans-serif;
+
     }
 
     // .footer__contact
 
     &__contact {
-        position: relative;
-        display: inline-block;
-    }
+        @media (max-width: 768px) {
+            margin-left: 7rem;
+        }
 
-    // .footer__contact-description
+        @media(max-width:428px) {
+            margin-left: 0;
+            margin-right: 2rem;
+          }
+
+    }
 
 
     &__content{
         display: flex;
         gap: 7rem;
         margin-top: 4rem;
+
+        @media (max-width: 1187px) {
+            justify-content:flex-end;
+            flex-wrap: wrap;
+            margin-right: 6rem;
+        }  
+        
+        @media (max-width: 768px) {
+            justify-content:flex-end;
+            flex-wrap: wrap;
+            margin-right: 6rem;
+        }
+
+        @media(max-width:514px) {
+            margin-right: 0;
+        }
+
+        @media (max-width:428px){
+            margin-right: 0;
+          }
+
+          @media (max-width: 428px) {
+            margin-right: 50px;
+        }
+
+        @media (max-width: 375px) {
+            margin-left: 3rem;
+        }
     }
 }
 
 .footer-description {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7rem;
+    margin-top: 1rem;
+
+    @media(max-width:604px) {
+            display: none;
+    }
+
+    @media (max-width:428px){
+        display: none;
+      }
+}
+
+.footer__input-description{
     color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-weight: 300;
@@ -74,6 +143,17 @@
     margin-right: 14rem;
     margin-top: 7.5rem;
     margin-bottom: -3.5rem;
+
+    @media (max-width: 1187px) {
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }  
+
+    @media (max-width: 768px) {
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+
 }
 
 .footer-copyright{
@@ -91,6 +171,10 @@
     padding-left: 2rem;
     border-radius: 7rem;
     margin-top: 1rem;
+
+    @media(max-width:428px) {
+        min-width: 20rem;
+      }
 }
 
 .footer__input-button{
@@ -107,5 +191,19 @@
     cursor: pointer;
     margin-top: -3.5rem;
     margin-right: 0.6rem;
+
+    @media (max-width: 1187px) {
+        max-width: 8rem;
+    }  
+
+    @media (max-width: 768px) {
+        max-width: 8rem;
+    }
+
+    @media(max-width:428px) {
+        border-radius: 20px;
+        max-width: 5.5rem;
+      }
   }
+
 

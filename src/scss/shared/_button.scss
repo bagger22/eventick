@@ -28,6 +28,10 @@
     &:hover{
         background-color: #be276e;
     }
+
+    @media (max-width:428px){
+        padding: 1.4rem 2.2rem;
+      }
 }
 
 .banner__button-learn{
@@ -39,6 +43,10 @@
     border: 2px solid #fff;
     border-radius: 7rem;
     cursor: pointer;
+
+    @media (max-width:428px){
+        padding: 1.2rem 2.2rem;
+      }
 }
 
 .load__button{
