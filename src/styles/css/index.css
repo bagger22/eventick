@@ -115,6 +115,11 @@ textarea {
 .create__button:hover {
   background-color: #b1155e;
 }
+@media (max-width: 768px) {
+  .create__button {
+    margin-bottom: 2rem;
+  }
+}
 
 .header {
   position: fixed;
@@ -238,6 +243,11 @@ textarea {
 }
 .create__button:hover {
   background-color: #b1155e;
+}
+@media (max-width: 768px) {
+  .create__button {
+    margin-bottom: 2rem;
+  }
 }
 
 .banner-content-box {
@@ -476,6 +486,12 @@ textarea {
   grid-template-columns: 1fr 1fr;
   gap: 0px 0px;
 }
+@media (max-width: 768px) {
+  .create__header {
+    display: block;
+    text-align: center;
+  }
+}
 .create__header-text {
   margin-top: 2.2rem;
 }
@@ -528,10 +544,20 @@ textarea {
   margin-bottom: auto;
   margin-left: 10rem;
 }
+@media (max-width: 768px) {
+  .brands__image-second {
+    margin: auto;
+  }
+}
 .brands__examples {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1rem;
+}
+@media (max-width: 768px) {
+  .brands__examples {
+    grid-template-columns: repeat(3, 2fr);
+  }
 }
 
 .blog__header {
@@ -583,6 +609,11 @@ textarea {
   grid-gap: 1.2rem;
   margin-top: 6rem;
   margin-left: 5rem;
+}
+@media (max-width: 768px) {
+  .blog-cards__content {
+    margin-left: 1.5rem;
+  }
 }
 
 .blog-card {

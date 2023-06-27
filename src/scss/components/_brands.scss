@@ -28,6 +28,9 @@
         margin-top: auto;
         margin-bottom: auto;
         margin-left: 10rem;
+        @media (max-width: 768px) {
+            margin: auto;
+        }
     }
         
 
@@ -35,5 +38,8 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr); 
         grid-gap: 1rem; 
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(3,2fr);
+        }
     }
 }

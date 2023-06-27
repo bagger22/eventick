@@ -26,11 +26,6 @@
             font-family: 'DM Sans', sans-serif;
 		}
 
-		// .blog__image
-
-		&__image {
-		}
-
 		// .blog__image-title
 
 		&__image-title {
@@ -72,6 +67,10 @@
             grid-gap: 1.2rem; 
             margin-top: 6rem;
             margin-left: 5rem;
+
+            @media (max-width: 768px) {
+                  margin-left: 1.5rem;
+              }
 		}
 }
 

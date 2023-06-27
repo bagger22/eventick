@@ -2,11 +2,15 @@
 .create{
     background: #EEE1FF;
     
-    
         &__header{
         display: grid; 
         grid-template-columns: 1fr 1fr; 
         gap: 0px 0px; 
+
+        @media (max-width: 768px) {
+            display: block;
+            text-align: center;
+        }
         }
 
         &__header-text{
@@ -18,6 +22,7 @@
             font-size: 2.1rem;
             color: #000000;
             margin-bottom: 0.7rem;
+
         }
         &__header-subtitle{
             color: #272727;
