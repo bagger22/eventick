@@ -400,11 +400,6 @@ textarea {
     background-image: url(../../assests/images/banner-background.png);
   }
 }
-@media (max-width: 428px) {
-  .banner {
-    background-image: url(../../assests/images/banner-background.png);
-  }
-}
 .banner__image {
   float: left;
   -webkit-transform: translateX(-20%);
