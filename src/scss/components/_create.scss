@@ -7,7 +7,6 @@
         display: grid; 
         grid-template-columns: 1fr 1fr; 
         gap: 0px 0px; 
-
         }
 
         &__header-text{
@@ -28,6 +27,9 @@
         
         &__image{
             margin-top: -3.1rem;
+            @media (max-width: 768px) {
+                display: none;
+            }
         }
     
     }

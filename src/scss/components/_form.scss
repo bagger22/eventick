@@ -11,6 +11,10 @@
         background-color: #242565;
         border-radius: 20px;
         padding: 3rem 3rem;
+
+        @media (max-width: 768px) {
+            margin-top: 9rem;
+        }
     }
 
     // .form__search
@@ -31,6 +35,10 @@
         background-color: transparent;
         font-size: 1.3rem;
         margin-top: 1rem;
+        
+        @media (max-width: 768px) {
+            max-width: 9.3rem;
+        }
     }
 
     // .form__place
@@ -54,8 +62,11 @@
         background-image: url('/src/assests/icons/arrow.svg');
         background-repeat: no-repeat;
         background-position: right center;
-        padding-right: 20px;
-        }
 
+        
+        @media (max-width: 768px) {
+            max-width: 9.3rem;
+        }
+        }
 
 }

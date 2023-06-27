@@ -1,5 +1,6 @@
 .brands{
     display: grid;
+    
     &__header{
         margin-top: 5rem;
         margin-bottom: 5.5rem;
@@ -22,11 +23,12 @@
     &__image-first{
         margin: auto;
     }
+
     &__image-second{
         margin-top: auto;
         margin-bottom: auto;
         margin-left: 10rem;
-            }
+    }
         
 
     &__examples{
