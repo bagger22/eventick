@@ -634,20 +634,7 @@ textarea {
             justify-content: center;
   }
 }
-@media (max-width: 768px) {
-  .events__choice {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 @media (max-width: 632px) {
-  .events__choice {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-@media (max-width: 428px) {
   .events__choice {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;

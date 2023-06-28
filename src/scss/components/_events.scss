@@ -43,15 +43,8 @@
             justify-content: center;
         }  
 
-        @media (max-width: 768px) {
-            justify-content: center;
-        }
 
         @media(max-width:632px) {
-            flex-wrap: wrap;
-          }
-
-        @media (max-width:428px){
             flex-wrap: wrap;
           }
 
