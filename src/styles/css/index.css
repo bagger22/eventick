@@ -566,7 +566,7 @@ textarea {
   border: none;
   border-bottom: 2px solid #7778B0;
   color: #fff;
-  background-image: url("/src/assests/icons/arrow.svg");
+  background-image: url("./src/assests/icons/arrow.svg");
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -660,7 +660,7 @@ textarea {
   padding: 1rem 1.5rem;
   border-radius: 2rem;
   background-color: #e3e4ee;
-  background-image: url("/src/assests/icons/arrow-blue.svg");
+  background-image: url("./src/assests/icons/arrow-blue.svg");
   background-repeat: no-repeat;
   background-position: center right 20px;
 }
