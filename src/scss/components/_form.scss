@@ -25,13 +25,11 @@
         }
 
         @media (max-width: 500px) {
-            display: flex;
-            flex-direction: column;
+            @include flex-column;
         }
 
         @media (max-width: 428px) {
-            display: flex;
-            flex-direction: column;
+            @include flex-column;
         }
     }
 

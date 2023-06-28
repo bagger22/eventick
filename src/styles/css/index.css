@@ -68,6 +68,11 @@ textarea {
 .banner__button-ticket:hover {
   background-color: #be276e;
 }
+@media (max-width: 375px) {
+  .banner__button-ticket {
+    margin-right: 0rem;
+  }
+}
 @media (max-width: 428px) {
   .banner__button-ticket {
     padding: 1.4rem 2.2rem;
@@ -265,6 +270,11 @@ textarea {
 }
 .banner__button-ticket:hover {
   background-color: #be276e;
+}
+@media (max-width: 375px) {
+  .banner__button-ticket {
+    margin-right: 0rem;
+  }
 }
 @media (max-width: 428px) {
   .banner__button-ticket {
@@ -1047,6 +1057,11 @@ textarea {
   border-radius: 7rem;
   margin-top: 1rem;
 }
+@media (max-width: 540px) {
+  .footer__input {
+    min-width: 20rem;
+  }
+}
 @media (max-width: 428px) {
   .footer__input {
     min-width: 20rem;
@@ -1076,6 +1091,11 @@ textarea {
 @media (max-width: 768px) {
   .footer__input-button {
     max-width: 8rem;
+  }
+}
+@media (max-width: 540px) {
+  .footer__input-button {
+    max-width: 5.5rem;
   }
 }
 @media (max-width: 428px) {

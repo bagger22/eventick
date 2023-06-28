@@ -172,6 +172,10 @@
     border-radius: 7rem;
     margin-top: 1rem;
 
+    @media(max-width:540px) {
+        min-width: 20rem;
+      }
+
     @media(max-width:428px) {
         min-width: 20rem;
       }
@@ -199,6 +203,10 @@
     @media (max-width: 768px) {
         max-width: 8rem;
     }
+
+    @media(max-width:540px) {
+        max-width: 5.5rem;
+      }
 
     @media(max-width:428px) {
         border-radius: 20px;

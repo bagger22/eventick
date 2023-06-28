@@ -29,6 +29,10 @@
         background-color: #be276e;
     }
 
+    @media (max-width:375px){
+        margin-right: 0rem;
+      }
+
     @media (max-width:428px){
         padding: 1.4rem 2.2rem;
       }
